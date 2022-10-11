@@ -1,0 +1,22 @@
+/* Daniel Fernández Bernardino */
+
+/* Especificidad 001*/
+table {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+/*Especificidad 001 */
+td {
+    padding: 5px;
+    border: 1px solid;
+    text-align: center;
+}
+
+/*Especificidad 001*/
+th {
+    font-size: larger;
+    padding: 10px;
+    border: 1px solid;
+    text-align: center;
+}
