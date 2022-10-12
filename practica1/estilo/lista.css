@@ -1,0 +1,22 @@
+/*Daniel Fernández Bernardino*/
+
+/* Especificidad 001*/
+dl {
+    background-color: rgb(230, 168, 168);
+    border: solid 2px red;
+    margin: 5%;
+}
+
+/* Especificidad 001*/
+dt {
+    font-size: large;
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+
+/* Especificidad 001*/
+dd {
+    font-size: medium;
+    margin: auto 5% 3%;
+}
+
