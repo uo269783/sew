@@ -4,6 +4,8 @@
 table {
     border: 1px solid;
     border-collapse: collapse;
+    background-color: beige;
+    margin: 15px;
 }
 
 /*Especificidad 001 */

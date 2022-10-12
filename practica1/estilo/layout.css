@@ -1,22 +1,2 @@
 /* Daniel Fernández Bernardino */
 
-/*Especificidad 001*/
-body {
-    display: grid;
-    grid-template-areas: 'nav main';
-
-}
-
-/* Especificidad 001*/
-main {
-    grid-area: main;
-}
-
-/* Especificidad 001*/
-nav {
-    height: fit-content;
-    top:0;
-    grid-area: nav;
-    position: sticky;
-}
-
