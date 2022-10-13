@@ -1,16 +1,12 @@
 /* Daniel Fernández Bernardino*/
 /* Especificidad 001*/
-header {
-    background-color: #b2e5e5;
-    border: 2px solid #717ddb;
-    margin-bottom: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
+body>header {
+    margin: 0%;
 }
 
 /* Especificidad 001*/
 h1 {
-    padding: 2em;
+    padding: 1%;
 }
 
 /* Especificidad 001*/
@@ -20,13 +16,17 @@ h2 {
 
 /* Especificidad 001 */
 section {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 5% 10% 0%;
+}
+
+main+section {
+    margin: 0% 5% 0%;
 }
 
 /* Especificidad 003*/
 section>p+img {
     display: block;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -41,4 +41,10 @@ p {
 nav {
     margin: 0%;
     padding: 0%;
+}
+
+/* Especificidad 001 */
+footer {
+    padding: 2%;
+    margin: 1% 0% 1%;
 }

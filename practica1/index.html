@@ -24,32 +24,39 @@
 </head>
 
 <body>
+    <header>
+        <h1>Node.js</h1>
+        <p>Daniel Fernández Bernardino, Software y Estándares para la Web</p>
+    </header>
     <nav>
-        <a href="index.html">Inicio</a>
-        <a href="caracteristicas.html">Aspectos técnicos</a>
-        <a href="versiones.html">Versiones</a>
-        <a href="opiniones.html">Opiniones</a>
+        <a accesskey="I" href="index.html" tabindex="1">Inicio</a>
+        <a accesskey="A" href="caracteristicas.html">Aspectos técnicos</a>
+        <a accesskey="V" href="versiones.html">Versiones</a>
+        <a accesskey="O" href="opiniones.html">Opiniones</a>
     </nav>
     <!-- Datos con el contenidos que aparece en el navegador -->
     <main>
-    <header>
-    <h1>Node.js</h1>
+    <section>
+    <h2>Introducción</h2>
     <p><a href="https://nodejs.org/es/">Node.js</a> es un entorno de ejecución para JavaScript construido con V8, motor de JavaScript de Chrome.</p>
-    </header>
+    </section>
     
     <section>
-    <h2>¿Qué es Node.js?</h2>
-    <p>Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor (pero no limitándose a ello) basado en el lenguaje de programación JavaScript, asíncrono, con E/S de datos en una arquitectura orientada a eventos y basado en el motor V8 de Google. Fue creado con el enfoque de ser útil en la creación de programas de red altamente escalables, como por ejemplo, servidores web.4​ Fue creado por <a href="https://en.wikipedia.org/wiki/Ryan_Dahl">Ryan Dahl</a> en 2009 y su evolución está apadrinada por la empresa Joyent, que además tiene contratado a Dahl en plantilla.</p>
 
-    <p>Node.js es similar en diseño y está influenciado por sistemas como Event Machine de Ruby y Twisted de Python. Pero Node.js lleva el modelo de eventos un poco más allá. Incluye un bucle de eventos como runtime de ejecución en lugar de una biblioteca.</p>
+        <h2>¿Qué es Node.js?</h2>
+        <p>Node.js es un entorno en tiempo de ejecución multiplataforma, de código abierto, para la capa del servidor (pero no limitándose a ello) basado en el lenguaje de programación JavaScript, asíncrono, con E/S de datos en una arquitectura orientada a eventos y basado en el motor V8 de Google. Fue creado con el enfoque de ser útil en la creación de programas de red altamente escalables, como por ejemplo, servidores web.4​ Fue creado por <a href="https://en.wikipedia.org/wiki/Ryan_Dahl">Ryan Dahl</a> en 2009 y su evolución está apadrinada por la empresa Joyent, que además tiene contratado a Dahl en plantilla.</p>
+        <p>Node.js es similar en diseño y está influenciado por sistemas como Event Machine de Ruby y Twisted de Python. Pero Node.js lleva el modelo de eventos un poco más allá. Incluye un bucle de eventos como runtime de ejecución en lugar de una biblioteca.</p>
+        
     </section>
-    
+
     <section>
-    <h2>Ejemplo de código: Hola Mundo</h2>
-    <p>A continuación veremos un pequeño programa "Hola Mundo" escrito en JavaScript utilizando algunas de las tecnologías de Node.js, que lo hacen una muy buena elección para grandes aplicaciones web</p>
-    <img src="multimedia/codigo1.png" alt="Programa Hola Mundo hecho siguiendo Node.js"/>
-    <p>En el fragmento de código anterior se ve como pueden atenderse muchas conexiones simultáneamente. Por cada conexión, se activa la devolución de llamada o callback, pero si no hay trabajo que hacer, Node.js se dormirá. Esto contrasta con el modelo de concurrencia más común de hoy en día, en el que se emplean hilos del Sistema Operativo. Las redes basadas en hilos son relativamente ineficientes y muy difíciles de usar.</p>
-    </section>
+        
+        <h2>Ejemplo de código: Hola Mundo</h2>
+        <p>A continuación veremos un pequeño programa "Hola Mundo" escrito en JavaScript utilizando algunas de las tecnologías de Node.js, que lo hacen una muy buena elección para grandes aplicaciones web</p>
+        <img src="multimedia/codigo1.png" alt="Programa Hola Mundo hecho siguiendo Node.js"/>
+        <p>En el fragmento de código anterior se ve como pueden atenderse muchas conexiones simultáneamente. Por cada conexión, se activa la devolución de llamada o callback, pero si no hay trabajo que hacer, Node.js se dormirá. Esto contrasta con el modelo de concurrencia más común de hoy en día, en el que se emplean hilos del Sistema Operativo. Las redes basadas en hilos son relativamente ineficientes y muy difíciles de usar.</p>
+
+</section>
 
     <footer>
         <img src="multimedia/HTML5.png" alt=" HTML5 Válido!" />

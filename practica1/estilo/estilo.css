@@ -14,13 +14,13 @@ h1 {
   color: #000000;
   text-transform: uppercase;
   text-align: center;
-  font-size: 32;
+  font-size: 32px;
 }
 
 /* Especificidad 001*/
 h2 {
   color: #000000;
-  font-size: 20;
+  font-size: 20px;
 }
 
 /* Especificidad 001*/
@@ -32,21 +32,30 @@ section {
 /* Especificidad 002*/
 h1+p {
   font-size: large;
+  vertical-align: bottom;
 }
 
 /* Especificidad 001*/
 nav {
   background-color: #ffffff;
   padding: 1%;
-  width: 100%;
 }
 
 /* Especificidad 002*/
 nav a {
-  font-family: Tahoma, sans-serif;
   background-color: black;
   color: white;
   font-size: large;
-  padding: 1%;
-  float: left;
+}
+
+/*Especificidad 001*/
+body>header {
+  background-color: #b2e5e5;
+  border: 2px solid #717ddb;
+}
+
+/* Especificidad 001 */ 
+footer {
+  background-color: rgb(255, 192, 255);
+  border: solid 2px rgb(152, 63, 152);
 }
