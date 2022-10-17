@@ -19,12 +19,16 @@
     <title>Características de Node.js</title>
     <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
     <!--<link rel="stylesheet" type="text/css" href="estilo/trabajo.css"/>-->
-    <link rel="stylesheet" type="text/css" href="estilo/layout.css"/>
-    <link rel="stylesheet" type="text/css" href="estilo/lista.css"/>
-    <link rel="stylesheet" type="text/css" href="estilo/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/lista.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/nav.css" />
 </head>
 
 <body>
+    <header>
+        <h1>Node.js</h1>
+        <p>Daniel Fernández Bernardino, Software y Estándares para la Web</p>
+    </header>
     <nav>
         <a href="index.html">Inicio</a>
         <a href="caracteristicas.html">Aspectos técnicos</a>
@@ -33,26 +37,41 @@
     </nav>
     <!-- Datos con el contenidos que aparece en el navegador -->
     <main>
-        <header><h1>Aspectos Técnicos de Node.js</h1>
-        <p>A continuación veremos una serie de características técnicas de Node.js, y una breve explicación de las mismas, con
-            el fin de entender mejor como funciona y quizá decantarnos por utilizar este entorno.</p></header>
-        
+        <section>
 
-                <section>
-                    <h2>Lista de características</h2>
-                    <dl>
-                            <dt>Concurrencia</dt>
-                            <dd>Node.js funciona con un modelo de evaluación de un único hilo de ejecución, usando entradas y salidas asíncronas.</dd>
-                            <dt>V8</dt>
-                            <dd>V8 es el entorno de ejecución para <a href="https://es.wikipedia.org/wiki/JavaScript">JavaScript</a> creado para Google Chrome. Es software libre desde 2008, está escrito en C++ y compila el código fuente JavaScript en código de máquina en lugar de interpretarlo en tiempo real.</dd>
-                            <dt>Módulos</dt>
-                            <dd>Node.js incorpora varios "módulos básicos" compilados en el propio binario, como por ejemplo el módulo de red, que proporciona una capa para programación de red asíncrona y otros módulos fundamentales, como por ejemplo Path, FileSystem, Buffer, Timers y el de propósito más general Stream.</dd>
-                            <dt>Bucle de Eventos</dt>
-                            <dd>Node.js se registra con el sistema operativo y cada vez que un cliente establece una conexión se ejecuta un callback. Dentro del entorno de ejecución de Node.js, cada conexión recibe una pequeña asignación de espacio de memoria dinámico, sin tener que crear un hilo de ejecución.</dd>
-                    </dl>
-                </section>
-        
-        
+        </section>
+
+        <article>
+            <section>
+                <h2>Aspectos Técnicos de Node.js</h2>
+                <p>A continuación veremos una serie de características técnicas de Node.js, y una breve explicación de las
+                    mismas, con
+                    el fin de entender mejor como funciona y quizá decantarnos por utilizar este entorno.</p>
+            </section>
+            <section>
+                <h2>Lista de características</h2>
+                <dl>
+                    <dt>Concurrencia</dt>
+                    <dd>Node.js funciona con un modelo de evaluación de un único hilo de ejecución, usando entradas y
+                        salidas asíncronas.</dd>
+                    <dt>V8</dt>
+                    <dd>V8 es el entorno de ejecución para <a href="https://es.wikipedia.org/wiki/JavaScript">JavaScript</a>
+                        creado para Google Chrome. Es software libre desde 2008, está escrito en C++ y compila el código
+                        fuente JavaScript en código de máquina en lugar de interpretarlo en tiempo real.</dd>
+                    <dt>Módulos</dt>
+                    <dd>Node.js incorpora varios "módulos básicos" compilados en el propio binario, como por ejemplo el
+                        módulo de red, que proporciona una capa para programación de red asíncrona y otros módulos
+                        fundamentales, como por ejemplo Path, FileSystem, Buffer, Timers y el de propósito más general
+                        Stream.</dd>
+                    <dt>Bucle de Eventos</dt>
+                    <dd>Node.js se registra con el sistema operativo y cada vez que un cliente establece una conexión se
+                        ejecuta un callback. Dentro del entorno de ejecución de Node.js, cada conexión recibe una pequeña
+                        asignación de espacio de memoria dinámico, sin tener que crear un hilo de ejecución.</dd>
+                </dl>
+            </section>
+        </article>
+
+
         <footer>
             <img src="multimedia/HTML5.png" alt=" HTML5 Válido!" />
             <img src="multimedia/CSS3.png" alt="CSS Válido!" />

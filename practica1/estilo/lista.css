@@ -2,6 +2,7 @@
 
 /* Especificidad 001*/
 dl {
+    /* color de fuente heredado de body */
     background-color: rgb(230, 168, 168);
     border: solid 2px red;
     margin: 5%;
