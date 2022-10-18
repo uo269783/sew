@@ -32,8 +32,8 @@ article>section+section {
     grid-area: segunda;
 }
 
-/* Especificidad 002 */
-body>header {
+/* Especificidad 00 */
+header {
     display: grid;
     grid-template-areas: 'h1 p';
     grid-area: header;

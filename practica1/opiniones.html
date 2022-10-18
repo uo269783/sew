@@ -51,12 +51,34 @@
             <section>
                 <h3>Formulario</h3>
                 <form>
-                    <a>Usuario:</a>
-                    <input type="email">
-                    <a>Opinión:</a>
-                    <input type="text">
-            
-                    <input type="submit">
+                    <p>
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" placeholder="paquito@email.es" required/>
+                        <label for="telefono">Teléfono de contacto:</label>
+                        <input type="tel"  id="telefono" placeholder="612345789" required/>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" placeholder="paquito gonsale" required/>
+                    </p>
+                    
+                    <p>
+                        <a>Grado de experiencia:</a>
+                        <input type="radio" name="experiencia" value="P" id="principiante"/> <label for="principiante">Principiante</label>
+                        <input type="radio" name="experiencia" value="I" id="intermedio"/> <label for="intermedio">Intermedio</label>
+                        <input type="radio" name="experiencia" value="A" id="avanzado"/> <label for="avanzado">Avanzado</label>
+                        
+                    </p>
+
+                    <p>
+                        
+                        <label for="opinion">Opinión:</label>
+                        <textarea name="opinion" id="opinion" maxlength="1000"></textarea>
+
+                        <label for="fecha">Fecha:</label>
+                        <input type="date" id="fecha"/>
+                        <input type="submit" value="Enviar"/>
+                    </p>
+
+                    
                 </form>
             </section>
         </article>
