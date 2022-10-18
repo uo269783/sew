@@ -24,7 +24,7 @@ h2 {
 }
 
 /* Especificidad 001*/
-article section>h2 {
+h3 {
   /*color heredado de body*/
   font-size: 20px;
   margin: 1% 5% auto;
@@ -49,7 +49,7 @@ section {
 
 article {
   /* color de fuente heredado de body */
-  background-color: rgb(255, 157, 255);
+  background-color: rgb(227, 136, 255);
   border: 2px solid purple;
   margin: 2% 10% 2%;
   padding-bottom: 5%;
@@ -57,8 +57,17 @@ article {
 
 /* Especificidad 003*/
 section>p+img {
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+video {
+  display: block;
+  margin: auto auto 2%;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Especificidad 002*/
@@ -95,8 +104,8 @@ body>header {
 /* Especificidad 001*/
 header, footer {
   /* color de fuente heredado de body*/
-  background-color: rgb(255, 192, 255);
-  border: solid 2px rgb(152, 63, 152);
+  background-color: rgb(255, 177, 177);
+  border: solid 2px rgb(247, 43, 43);
 }
 /* Especificidad 001 */ 
 footer {
@@ -107,7 +116,6 @@ footer {
 /* Especificidad 002*/
 footer img {
   margin: auto;
-
 }
 
 p {
