@@ -43,7 +43,7 @@ section {
   /* color de fuente heredado de body*/
   margin: 5% 5% 0%;
   background-color: #b2e5e5;
-    border: 2px solid #717ddb;
+  border: 2px solid #717ddb;
 }
 
 article {
@@ -69,7 +69,8 @@ video {
 
 /* Especificidad 002*/
 h1+p {
-  /* color de fondo heredado de body*/
+  /* color de fuetne heredado de body*/
+  text-align: left;
   font-size: large;
 }
 
@@ -84,7 +85,6 @@ nav {
 
 /* Especificidad 002*/
 nav a {
-  /* color heredado de body*/
   background-color: black;
   color: white;
   font-size: large;
@@ -99,12 +99,14 @@ body>header {
 }*/
 
 /* Especificidad 001*/
-header, footer {
+header,
+footer {
   /* color de fuente heredado de body*/
   background-color: rgb(255, 177, 177);
   border: solid 2px rgb(247, 43, 43);
 }
-/* Especificidad 001 */ 
+
+/* Especificidad 001 */
 footer {
   padding: 2%;
   margin: 1% 0% 0%;

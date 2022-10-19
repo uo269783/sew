@@ -4,15 +4,16 @@
 body {
     display: grid;
     grid-template-areas: 'header'
-    'nav'
-    'main';
+        'nav'
+        'main'
+        'footer';
 }
 
 /* Especificidad 001 */
 main {
     grid-area: main;
     display: grid;
-    grid-template-areas: 'section' 'article' 'footer';
+    grid-template-areas: 'section' 'article';
 
 }
 
@@ -41,19 +42,19 @@ header {
     display: grid;
     grid-template-areas: 'h1 p';
     grid-area: header;
-    
+
 }
 
 /* Especificidad 001 */
 h1 {
     grid-area: h1;
-    
+
 }
 
 /* Especificidad 002 */
-h1 + p {
+h1+p {
     grid-area: p;
-    
+
 }
 
 /* Especificidad 001 */

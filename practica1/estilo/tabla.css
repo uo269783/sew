@@ -7,13 +7,17 @@ table {
     border-collapse: collapse;
     /* color de fuente heredado de body*/
     background-color: rgb(178, 233, 243);
+    max-width: 100%;
+    height: auto;
 }
+
 
 /*Especificidad 001 */
 td {
-    padding: 5px;
+    padding: 1% 5% 1%;
     border: 1px solid;
     text-align: center;
+    width: fit-content;
 }
 
 /*Especificidad 001*/
@@ -21,7 +25,6 @@ th {
     /* color de fuente heredado de body */
     font-size: larger;
     background-color: rgb(255, 203, 106);
-    padding: 10px;
     border: 1px solid;
     text-align: center;
 }
