@@ -56,14 +56,12 @@ article {
 
 /* Especificidad 003*/
 section>p+img {
-  display: block;
   margin: auto;
   max-width: 100%;
   height: auto;
 }
 
 video {
-  display: block;
   margin: auto auto 2%;
   max-width: 100%;
   height: auto;

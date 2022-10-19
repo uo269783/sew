@@ -19,7 +19,7 @@ main {
 /* Especificidad 001 */
 article {
     display: grid;
-    grid-template-areas: 'primera' 'segunda';
+    grid-template-areas: 'titulo' 'primera' 'segunda';
     grid-area: article;
 }
 
@@ -30,6 +30,10 @@ article>section {
 
 article>section+section {
     grid-area: segunda;
+}
+
+article>h2 {
+    grid-area: titulo;
 }
 
 /* Especificidad 00 */
