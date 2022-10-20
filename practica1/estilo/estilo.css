@@ -65,7 +65,7 @@ section>p+img {
 
 /* Especificidad 001*/
 video {
-  margin: auto auto 2%;
+  margin: auto 5% 2%;
   max-width: 100%;
   height: auto;
 }
