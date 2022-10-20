@@ -29,15 +29,24 @@ article>section {
     grid-area: primera;
 }
 
+/* Especificidad 003*/
 article>section+section {
+    display: grid;
     grid-area: segunda;
+    grid-template-areas: 'h3 h3 h3''parrafo img img';
 }
 
+/* Especificidad 004*/
+article>section+section h3 {
+    grid-area: h3;
+}
+
+/* Especificidad 002*/
 article>h2 {
     grid-area: titulo;
 }
 
-/* Especificidad 00 */
+/* Especificidad 001 */
 header {
     display: grid;
     grid-template-areas: 'h1 p';
@@ -62,11 +71,43 @@ nav {
     grid-area: nav;
 }
 
+/* Especificidad 001*/
 section {
     grid-area: section;
+}
+
+/* Especificidad 002*/
+section img {
+    grid-area: img;
+}
+
+/* Especificidad 002*/
+section p {
+    grid-area: parrafo;
 }
 
 /* Especificidad 001 */
 footer {
     grid-area: footer;
+}
+
+/* Especificidad 012 */
+form fieldset:last-of-type {
+    display: grid;
+    grid-template-areas: 'textarea fecha boton';
+}
+
+/* Especificidad 023 */
+form fieldset:last-of-type p:first-of-type{
+    grid-area: textarea;
+}
+
+/* Especificidad 023 */
+form fieldset:last-of-type p:last-of-type{
+    grid-area: boton;
+}
+
+/* Especificidad 013 */
+form fieldset:last-of-type p{
+    grid-area: fecha;
 }

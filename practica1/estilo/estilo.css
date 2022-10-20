@@ -13,19 +13,20 @@ h1 {
   /* color heredado de body*/
   text-transform: uppercase;
   text-align: center;
-  font-size: 32px;
+  font-size: 36px;
   padding: 1%;
 }
 
+/* Especificidad 001*/
 h2 {
-  font-size: 26px;
+  font-size: 28px;
   text-align: center;
 }
 
 /* Especificidad 001*/
 h3 {
   /*color heredado de body*/
-  font-size: 22px;
+  font-size: 20px;
   margin: 1% 5% auto;
   text-align: start;
 }
@@ -46,6 +47,7 @@ section {
   border: 2px solid #717ddb;
 }
 
+/* Especificidad 001*/
 article {
   /* color de fuente heredado de body */
   background-color: rgb(227, 136, 255);
@@ -61,6 +63,7 @@ section>p+img {
   height: auto;
 }
 
+/* Especificidad 001*/
 video {
   margin: auto auto 2%;
   max-width: 100%;
@@ -92,11 +95,6 @@ nav a {
   padding: 0.5%
 }
 
-/*Especificidad 001
-body>header {
-  background-color: #b2e5e5;
-  border: 2px solid #717ddb;
-}*/
 
 /* Especificidad 001*/
 header,
@@ -117,6 +115,7 @@ footer img {
   margin: auto;
 }
 
+/* Especificidad 001*/
 p {
   margin-left: 2%;
   margin-right: 2%;
