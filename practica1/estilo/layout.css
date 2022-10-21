@@ -74,16 +74,6 @@ section {
     grid-area: section;
 }
 
-/* Especificidad 002*/
-section img {
-    grid-area: img;
-}
-
-/* Especificidad 002*/
-section p {
-    grid-area: parrafo;
-}
-
 /* Especificidad 001 */
 footer {
     grid-area: footer;
