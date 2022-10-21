@@ -31,9 +31,7 @@ article>section {
 
 /* Especificidad 003*/
 article>section+section {
-    display: grid;
     grid-area: segunda;
-    grid-template-areas: 'h3 h3 h3''parrafo img img';
 }
 
 /* Especificidad 004*/
