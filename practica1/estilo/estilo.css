@@ -100,7 +100,7 @@ header,
 footer {
   /* color de fuente heredado de body*/
   background-color: #be84a3;
-  border: solid 2px rgb(247, 43, 43);
+  border: solid 2px #be84a3;
 }
 
 /* Especificidad 001 */
