@@ -6,7 +6,7 @@ table {
     border: 1px solid;
     border-collapse: collapse;
     /* color de fuente heredado de body*/
-    background-color: rgb(178, 233, 243);
+    background-color: #41b6e6;
     max-width: 100%;
     height: auto;
 }
