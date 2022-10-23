@@ -50,7 +50,7 @@ section {
 /* Especificidad 001*/
 article {
   /* color de fuente heredado de body */
-  background-color: rgb(255, 255, 255);
+  background-color: #be84a3;
   border: 2px solid purple;
   margin: 2% 10% 2%;
   padding-bottom: 5%;
@@ -99,7 +99,7 @@ nav a {
 header,
 footer {
   /* color de fuente heredado de body*/
-  background-color: rgb(255, 255, 255);
+  background-color: #e56db1;
   border: solid 2px rgb(247, 43, 43);
 }
 
