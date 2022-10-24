@@ -100,18 +100,25 @@ footer {
   background-color: #be84a3;
   border: solid 0.125em purple;
 }
-
-/* Especificidad 001 */
+/* Header y footer están separados aunque tengan las mismas propiedades
+porque juntos me causaban un error de contraste en achecker, que no tenía sentido
+al utilizar estos mismos colores en el article: fondo #be84ae, primer plano #000000*/
+/* Especificidad 001 
 header {
+  background-color: #be84a3;
+  border: solid 0.125em purple;
+}*/
+
+header, footer {
   background-color: #be84a3;
   border: solid 0.125em purple;
 }
 
-/* Especificidad 001 */
+/* Especificidad 001 
 footer {
   padding: 2%;
   margin: 1% 0% 0%;
-}
+}*/
 
 /* Especificidad 002*/
 footer img {
