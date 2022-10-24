@@ -3,7 +3,7 @@
 /* Especificidad 001*/
 table {
     margin: 2% auto 2%;
-    border: 1px solid;
+    border: 0.0625em solid;
     border-collapse: collapse;
     /* color de fuente heredado de body*/
     background-color: #41b6e6;
@@ -14,7 +14,7 @@ table {
 
 /*Especificidad 001 */
 td {
-    border: 1px solid;
+    border: 0.0625em solid;
     text-align: center;
     width: fit-content;
 }
@@ -24,6 +24,6 @@ th {
     /* color de fuente heredado de body */
     font-size: larger;
     background-color: rgb(255, 203, 106);
-    border: 1px solid;
+    border: 0.0625em solid;
     text-align: center;
 }

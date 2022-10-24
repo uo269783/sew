@@ -5,7 +5,6 @@ body {
   color: #000000;
   background-color: rgb(242, 239, 202);
   text-align: justify;
-
 }
 
 /*Especificidad: 001*/
@@ -13,20 +12,20 @@ h1 {
   /* color heredado de body*/
   text-transform: uppercase;
   text-align: center;
-  font-size: 36px;
+  font-size: 2.25em;
   padding: 1%;
 }
 
 /* Especificidad 001*/
 h2 {
-  font-size: 28px;
+  font-size: 1.75em;
   text-align: center;
 }
 
 /* Especificidad 001*/
 h3 {
   /*color heredado de body*/
-  font-size: 20px;
+  font-size: 1.25em;
   margin: 1% 5% auto;
   text-align: start;
 }
@@ -35,7 +34,7 @@ h3 {
 article section {
   /* color de fuente heredado de body*/
   background-color: #97f2c7;
-  border: 2px solid #057440;
+  border: 0.125em solid #057440;
   margin: 5% 5% 0%;
 }
 
@@ -44,14 +43,14 @@ section {
   /* color de fuente heredado de body*/
   margin: 5% 5% 0%;
   background-color: #b2e5e5;
-  border: 2px solid #717ddb;
+  border: 0.125em solid #717ddb;
 }
 
 /* Especificidad 001*/
 article {
   /* color de fuente heredado de body */
   background-color: #be84a3;
-  border: 2px solid purple;
+  border: 0.125em solid purple;
   margin: 2% 10% 2%;
   padding-bottom: 5%;
 }
@@ -95,12 +94,17 @@ nav a {
 }
 
 
-/* Especificidad 001*/
-header,
+/* Especificidad 001 */
 footer {
   /* color de fuente heredado de body*/
   background-color: #be84a3;
-  border: solid 2px purple;
+  border: solid 0.125em purple;
+}
+
+/* Especificidad 001 */
+header {
+  background-color: #be84a3;
+  border: solid 0.125em purple;
 }
 
 /* Especificidad 001 */
