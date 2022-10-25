@@ -17,6 +17,7 @@ h1 {
 /* Especificidad 001*/
 h2 {
   font-size: 1.75em;
+  margin: 1% 5% auto;
 }
 
 /* Especificidad 001*/
@@ -53,7 +54,6 @@ article {
 
 /* Especificidad 003*/
 section>p+img {
-  margin: auto;
   max-width: 100%;
   height: auto;
 }
@@ -100,10 +100,6 @@ footer {
   margin: 1% 0% 0%;
 }
 
-/* Especificidad 002*/
-footer img {
-  margin: auto;
-}
 
 /* Especificidad 001*/
 p {
