@@ -15,7 +15,6 @@ table {
 /*Especificidad 001 */
 td {
     border: 0.0625em solid;
-    text-align: center;
     width: fit-content;
 }
 
@@ -25,5 +24,4 @@ th {
     font-size: larger;
     background-color: rgb(255, 203, 106);
     border: 0.0625em solid;
-    text-align: center;
 }
