@@ -16,8 +16,10 @@ class CalculadoraRPN {
 
         textarea.value = "";
 
+        var cont = 0;
         this.pila.forEach(v => {
-            textarea.value += v + "\n";
+            textarea.value += (this.pila.length - cont) + ":\t" + v + "\n";
+            cont++;
         });
 
         texto.value = this.valor;
